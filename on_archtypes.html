@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>in which we mediate on programmer archetypes</title>
+    <script src="http://jed.github.io/weenote/weenote.js"></script>
+    <style>
+      body {
+        font-family: "Tahoma", "sans-serif";
+        font-weight: bold;
+        background-color: #000;
+        text-align: center;
+        color: #FFF;
+        white-space: nowrap;
+      }
+
+      a, em {
+        color: #C00;
+        font-style: normal;
+      }
+
+      a {
+        border-bottom: .1em dotted;
+        text-decoration: none;
+      }
+
+      pre, ol {
+        text-align: left;
+      }
+
+      ol > li {
+        color: #BBB;
+        list-style-position: inside;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      small {
+        font-size: .25em;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        In which we mediate on the various species of programmers,<br/>
+        their various and sundry habits, <br/>
+        and their place in the whole of creation.
+      </p>
+    </div>
+
+    <div>
+      <dl>
+        <dt>archetype</dt>
+        <dd>A statement, or pattern of behavior, a prototype upon which others<br/>
+          are copied, patterned, or emulated</dd>
+      </dl>
+    </div>
+
+    <div>
+      <h1>WTH?</h1>
+      <p>All in good fun.</p>
+    </div>
+
+    <div>
+      <p>Three types of program</p>
+      <img src="venn_diagram.png"/>
+    </div>
+
+    <div>
+      <h1>3</h1>
+    </div>
+
+    <div>
+      <small>3 shall be the number of the counting, <br/>
+        and the number of the counting shall be 3<br/>
+        not being 4 nor 5 or 6 - but 3.
+      </small>
+    </div>
+
+    <div>
+      <h1>3</h1>
+    </div>
+
+    <div>
+      <p>Just go with it.  Last warning</p>
+    </div>
+
+    <div>
+      <p>Fast</p>
+    </div>
+
+    <div>
+      <p>Correct</p>
+    </div>
+
+    <div>
+      <p>Smart</p>
+    </div>
+
+    <div>
+      <p>Pick <strong>ONE.</strong></p>
+    </div>
+
+    <div>
+      <pre> Programmer.subclasses.length == Program.subclasses.length </pre>
+    </div>
+
+    <div>
+      <h1>Type 1</h1>
+    </div>
+
+    <div>
+      <p>The engineer</p>
+      <img src="revenge_of_the_nerds_2.jpg"/>
+    </div>
+
+    <div>
+      <p>Beautiful Code</p>
+    </div>
+
+    <div>
+      <p>Racoon Education</p>
+    </div>
+
+    <div>
+      <p>Identifiable <br/>
+        Characteristics</p>
+    </div>
+
+    <div>
+      <p>Likes: Nothing</p>
+    </div>
+
+    <div>
+      <p>Hates: You</p>
+    </div>
+
+    <div>
+      <p>Editor: None</p>
+    </div>
+
+    <div>
+      <pre>
+module Matrix where
+ 
+open import Data.Nat
+open import Data.Vec
+ 
+Matrix : (A : Set) → ℕ → ℕ → Set
+Matrix A m n = Vec (Vec A m) n
+ 
+transpose : ∀ {A m n} → Matrix A m n → Matrix A n m
+transpose [] = replicate []
+transpose (xs ∷ xss) = zipWith _∷_ xs (transpose xss)
+ 
+a = (1 ∷ 2 ∷ 3 ∷ []) ∷ (4 ∷ 5 ∷ 6 ∷ []) ∷ []
+b = transpose a
+      </pre>
+    </div>
+
+    <div>
+      <h1> And now a D & D Joke </h1>
+    </div>
+
+    <div>
+      <img src="paladin.jpg"/>
+    </div>
+
+    <div>
+      <h1>Type 2</h1>
+    </div>
+
+    <div>
+      <p>The artist</p>
+      <img src="why.png"/>
+    </div>
+
+    <div>
+      <p>Clever, Smart Code</p>
+    </div>
+
+    <div>
+      <p>I never thought of that</p>
+    </div>
+
+    <div>
+      <p>Identifiable <br/> Characteristics</p>
+    </div>
+
+    <div>
+      <p>Likes: Dark Corners</p>
+    </div>
+
+    <div>
+      <p>Hates: Boredom</p>
+    </div>
+
+    <div>
+      <p>Editor: Customized Vim or Emacs build</p>
+    </div>
+
+    <div>
+      <pre>
+(let ((w-1 (amb "the" "that" "a"))
+      (w-2 (amb "frog" "elephant" "thing"))
+      (w-3 (amb "walked" "treaded" "grows"))
+      (w-4 (amb "slowly" "quickly")))
+  (define (joins? left right)
+    (equal? (string-ref left (- (string-length left) 1)) (string-ref right 0)))
+  (if (joins? w-1 w-2) '() (amb))
+  (if (joins? w-2 w-3) '() (amb))
+  (if (joins? w-3 w-4) '() (amb))
+  (list w-1 w-2 w-3 w-4))
+      </pre>
+    </div>
+
+    <div>
+      <h1> GUARD YOURSELF </h1>
+      <p>Here it comes</p>
+    </div>
+
+    <div>
+      <img src="druid.jpg"/>
+    </div>
+
+    <div>
+      <h1>Type 3</h1>
+    </div>
+
+    <div>
+      <p>The hacker</p>
+      <img src="hacker.jpg"/>
+    </div>
+
+    <div>
+      <p>Finished Fast</p>
+    </div>
+
+    <div>
+      <p>Yes, of course it works.</p>
+      <small>asshole</small>
+    </div>
+
+    <div>
+      <p>Identifiable <br/> Characteristics</p>
+    </div>
+
+    <div>
+      <p>Likes: Simple, Fast</p>
+    </div>
+
+    <div>
+      <p>Hates: The project management system</p>
+    </div>
+
+    <div>
+      <p>Editor: Whatever's installed</p>
+    </div>
+
+    <div>
+      <pre>
+puts "Goodbye, World!"
+&lt;?php echo "Goodbye, World!\n"; ?&gt;
+say 'Goodbye, World!';
+display dialog "Goodbye World"
+      </pre>
+    </div>
+
+    <div>
+      <h1> LAST ONE I SWEAR</h1>
+    </div>
+
+    <div>
+      <img src="rouge.png"/>
+    </div>
+
+    <div>
+      <h1> Now the fun part </h1>
+    </div>
+
+    <div>
+      <h2 style="color:red">The TEST!!</h2>
+    </div>
+
+    <div>
+      You have some free time.  What are you doing with it?
+      <ol type="a">
+        <li> I'm cleaning up this mess I left.</li>
+        <li> I'm thinking about rewriting this app in Clojure </li>
+        <li> I'm arguing with the premise that I have 'free time' </li>
+      </ol>
+    </div>
+
+    <div>
+      You have just received a new project - what's your first thought.
+      <ol type="a">
+        <li>I need to write features!</li>
+        <li>Ooo! Where's that article about hyper-APIs?</li>
+        <li>I think I can just copy 85% of the last project I did.</li>
+      </ol>
+    </div>
+
+    <div>
+      One of your coworkers has a question about one of your previous projects<br/>
+      - your response is:
+      <ol type="a">
+        <li>That's never actually happened to me.</li>
+        <li>Are you familiar with co-routines?</li>
+        <li>Fake your own death and try to establish a new identity in Tasmania</li>
+      </ol>
+    </div>
+
+    <div>
+      The deadline is looming.  You're not going to make it - what do you do?
+      <ol type="a">
+        <li>It's done when it's done.  Soldier on.</li>
+        <li>Break out this new technique you've been wanting to try.  Should be faster.</li>
+        <li>Perform a miracle, meet the deadline.</li>
+      </ol>
+    </div>
+
+    <div>
+      You have a degree in:
+      <ol type="a">
+        <li>Computer Science - Abstract Mathematics minor.</li>
+        <li>English - Russian Existenialist literature minor.</li>
+        <li>College.</li>
+      </ol>
+    </div>
+
+    <div>
+      People have described you as:
+      <ol type="a">
+        <li>an asshole </li>
+        <li>a flake</li>
+        <li>dangerous</li>
+      </ol>
+    </div>
+
+    <div>
+       You have a choice of what project to work on next - which one do you take?
+       <ol type="a">
+        <li>Refactoring a legacy application into composable modules.</li>
+        <li>Trying to write an algorithim to pack boxes more efficiently.</li>
+        <li>Spiking out a new user interface</li>
+      </ol>
+    </div>
+
+    <div>
+       Write your own question 8.
+       <ol type="a">
+        <li>No.</li>
+        <li>Have you read Gödel, Escher and Bach?</li>
+        <li>Can you hold this for a second?</li>
+      </ol>
+    </div>
+
+    <div>
+      What's the best way to train new developers?
+      <ol type="a">
+        <li>Master &amp; Apprentice - Jedi Style Padawan. First you must prove your worth. </li>
+        <li>Have them read important books until enlightment descends upon them.</li>
+        <li>Start swimming m*******ker.</li>
+      </ol>
+    </div>
+
+    <div>
+      You find this quiz:
+      <ol type="a">
+        <li>Ludicrous</li>
+        <li>Not very funny. </li>
+        <li>Wasteful</li>
+        <li>all of the above</li>
+      </ol>
+    </div>
+
+    <div>
+      The Point
+    </div>
+
+    <div>
+      <pre>
+d = ["herp", "derp"]
+for derpage in d do
+  puts derpage
+end
+      </pre>
+    </div>
+
+    <div>
+      It Works
+    </div>
+
+    <div>
+      <pre>
+        class Herper
+          def herp
+            "herp"
+          end
+
+          def derp
+            "derp"
+          end
+
+          def derpage
+            puts herp
+            puts derp
+          end
+        end
+        </pre>
+    </div>
+
+    <div>
+      It's easy to understand
+    </div>
+
+    <div>
+      <pre>
+Class.new(Object) do |c|
+  %w(herp derp).each do |p|
+    define_method p do
+      p.to_s
+    end
+  end
+
+  def method_missing
+    puts [herp, derp].inject("", &:concat)
+  end
+end
+    </pre>
+    </div>
+
+    <div>
+      It's... wait - inject can do that?
+    </div>
+
+    <div>
+      3 fold path
+    </div>
+
+    <div>
+      Great minds discuss ideas; <br/>
+      average minds discuss events; <br/>
+      small minds discuss people. <br/>
+      <small> - Eleanor Roosevelt</small>
+    </div>
+
+    <div>
+      <p> We are all unique little snowflakes</p>
+      <img src="snowflake.jpg"/>
+      <p><small>Just like everyone else</small></p>
+    </div>
+
+    <div>
+      fin
+    </div>
+
+</body>

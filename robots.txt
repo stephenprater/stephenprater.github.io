@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://stephenprater.github.io/sitemap.xml 

@@ -14,7 +14,9 @@ Luckily for me, I've got Docker. Docker Compose (the program formerly known as
 fig) is pretty much perfect for this application, since it can start various
 services that might or might not exist in your CI service.  Unfortunately, if
 you're using TravisCI, the version of Docker they support (1.9 last time I
-checked) doesn't really support `docker-compose`
+checked) doesn't really support `docker-compose.`  We're using CircleCI though,
+so with a little bit of effort, we're able to lean on Compose to provide services
+during the test run.
 
 Anyway, this gem is pretty simple - it provides a CLI and API wrapper around a
 [consul](https://www.consul.io) - a key value store great for managing distributed
@@ -76,7 +78,9 @@ CMD ["rake", "-T"]
 You can pretty much copy this straight up, unless you want to run on a different
 ruby version, or you need specialized packages compiled (imagemagick
 or pg_client maybe?)  We're using the offical Alpine Ruby container because it's
-pretty lightweight for a docker container.  Mounting the volume at the current
+pretty lightweight for a docker container.  Alpine Linux doesn't include very much in the
+way of dependencies right out of the gate (not even bash) - so we do have to install a few
+things using Alpines package manager `apk.` Mounting the volume at the current
 working directory let's us work on our gem without needing to attach to the container
 and copy the files back and forth.
 
@@ -110,4 +114,7 @@ dbe() {
 This lets me type `dbe rspec spec` - which is super short, and less typing is obivously
 the ultimate goal of any programmer worth their weight in bacon.
 
-
+At this point, we can use `dbe` as a sort-of-kind-of standalone executable for the entire
+environment the gem needs. (Think bundle, but it includes a database!) It's simpler than
+trying to make sure you've got your local environment setup perfectly, and when you push
+it to a CI system with Docker support, there's less configuration to do there as well.

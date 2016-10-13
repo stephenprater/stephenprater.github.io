@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <script src="https://use.typekit.net/qzn7hhn.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="http://localhost:35729/livereload.js"></script>
+
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <link rel="stylesheet" href="/css/syntax.css"/>
+  </head>
+  <body>
+    <header>
+      <h1>aliquid radix</h1>
+    </header>
+
+    <nav>
+      <ul id="contact">
+        <li class="twitter"><a href="http://twitter.com/stephenprater">twitter</a></li>
+        <li class="github"><a href="http://github.com/stephenprater">github</a></li>
+      </ul>
+
+      <ul id="topbar">
+        <li class="{%if page.tab == nil %} active {% endif %}"><a href="/">home</a></li>
+        <li class="{%if page.tab == 'archive'%} active {% endif %}"><a href="/archive">archive</a></li>
+        <li class="{%if page.tab == 'about'%} active {% endif %}"><a href="/about">about</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <aside>
+      <section id="theoreticals">
+        <h3>thinks</h3>
+        <ul>
+        {% for link in site.theoretical_links %}
+          <li> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
+        {% endfor %}
+        </ul>
+      </section>
+
+      <section id="practicals">
+        <h3>does</h3>
+        <ul>
+        {% for link in site.practical_links %}
+          <li> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
+        {% endfor %}
+        </ul>
+      </section>
+    </aside>
+
+    <footer>
+      <span>Powered by Jekyll, Dreams, and IPAs</span>
+      <span>Copyright 2016 - Stephen Prater</span>
+    </footer>
+  </body>
+</html>

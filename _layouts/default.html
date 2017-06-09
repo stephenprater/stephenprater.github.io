@@ -12,22 +12,24 @@
       <h1>aliquid radix</h1>
     </header>
 
-    <nav>
-      <ul id="contact">
-        <li class="twitter"><a href="http://twitter.com/stephenprater">twitter</a></li>
-        <li class="github"><a href="http://github.com/stephenprater">github</a></li>
-      </ul>
+    <div class="tabbed-area">
+      <nav>
+        <ul id="contact">
+          <li class="twitter"><a href="http://twitter.com/stephenprater">twitter</a></li>
+          <li class="github"><a href="http://github.com/stephenprater">github</a></li>
+        </ul>
 
-      <ul id="topbar">
-        <li class="{%if page.tab == nil %} active {% endif %}"><a href="/">home</a></li>
-        <li class="{%if page.tab == 'archive'%} active {% endif %}"><a href="/archive">archive</a></li>
-        <li class="{%if page.tab == 'about'%} active {% endif %}"><a href="/about">about</a></li>
-      </ul>
-    </nav>
+        <ul id="topbar">
+          <li class="{%if page.tab == nil %} active {% endif %}"><a href="/">home</a></li>
+          <li class="{%if page.tab == 'archive'%} active {% endif %}"><a href="/archive">archive</a></li>
+          <li class="{%if page.tab == 'about'%} active {% endif %}"><a href="/about">about</a></li>
+        </ul>
+      </nav>
 
-    <main>
-      {{ content }}
-    </main>
+      <main>
+        {{ content }}
+      </main>
+    </div>
 
     <aside>
       <section id="theoreticals">

@@ -186,6 +186,12 @@ main {
   p {
     font-family: 'garamond-premier-pro', 'serif';
     font-size: larger;
+    line-height: 1.5em;
+    text-indent: 1em;
+  }
+
+  ol {
+
   }
 
   ul#post_list {
@@ -223,6 +229,8 @@ header {
     display: inline;
     margin-left: 2%;
     font-size: 4em;
+    position: relative;
+    top: 10px;
   }
 }
 
@@ -316,7 +324,11 @@ nav {
           color: grey;
           font-family: 'archetype', 'serif';
           font-size: 1.5em;
+          line-height: 1.75em;
           text-decoration: none;
+          vertical-align: center;
+          display: block;
+          position: relative;
         }
       }
     }

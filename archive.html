@@ -3,12 +3,12 @@ layout: default
 tab: 'archive'
 ---
 
-<ul id="post_list">
+<ul class="archive">
 {% for post in site.posts %}
     <li>
-        <h2>
+        <h2 class="archive__title">
             <a href="{{post.url}}">{{ post.title }}</a>
-            <span class="date">{{ post.date | date_to_long_string }}</span>
+            <span class="archive__date">{{ post.date | date_to_long_string }}</span>
         </h2>
     </li>
 {% endfor %}

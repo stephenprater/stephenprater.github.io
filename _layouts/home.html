@@ -3,11 +3,16 @@ layout: default
 ---
 
 {% for post in site.posts limit: 5 %}
-  <h2>{{ post.title }} <span class="date">{{ post.date | date_to_long_string }}</h2>
+  <h2 class="text__title">
+    {{ post.title }}
+    <br/>
+    <span class="text__date"> {{ post.date | date_to_long_string }}
+  </h2>
+
 
   <article>
     {{post.content}}
   </article>
 
-  <hr class="post-divider"/>
+  <hr class="text__post_divider"/>
 {% endfor %}

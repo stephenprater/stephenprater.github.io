@@ -6,54 +6,79 @@
 
     <link rel="stylesheet" href="/css/styles.css"/>
     <link rel="stylesheet" href="/css/syntax.css"/>
+    <meta name="viewport" content="width=device-width">
+
   </head>
-  <body>
+  <body class="page">
     <header>
-      <h1>aliquid radix</h1>
-    </header>
+      <div class="title">
+        <h1 class="title__main">prater's blog</h1>
+        <h3 class="title__sub">
+          in which i hold forth upon various and sundry issues of import to persons employed in the
+          production of software and am promptly and roundly ignored
+        </h3>
+      </div>
 
-    <div class="tabbed-area">
-      <nav>
-        <ul id="contact">
-          <li class="twitter"><a href="http://twitter.com/stephenprater">twitter</a></li>
-          <li class="github"><a href="http://github.com/stephenprater">github</a></li>
-        </ul>
+      <nav class="contact">
+        <ul class="contact__list">
+          <li class="contact__list_item contact--twitter">
+            <a href="http://twitter.com/stephenprater">
+              <span>
+                twitter
+              </span>
+            </a>
+          </li>
 
-        <ul id="topbar">
-          <li class="{%if page.tab == nil %} active {% endif %}"><a href="/">home</a></li>
-          <li class="{%if page.tab == 'archive'%} active {% endif %}"><a href="/archive">archive</a></li>
-          <li class="{%if page.tab == 'about'%} active {% endif %}"><a href="/about">about</a></li>
+          <li class="contact__list_item contact--github">
+            <a href="http://github.com/stephenprater">
+              <span>
+                github
+              </span>
+            </a>
+          </li>
         </ul>
       </nav>
 
-      <main>
+      <nav class="sections-links">
+        <ul class="sections-links__list">
+          <li class="sections-links__list_item {%if page.tab == nil %} sections-links--active {% endif %}"><a href="/">home</a></li>
+          <li class="sections-links__list_item {%if page.tab == 'archive'%} sections-links--active {% endif %}"><a href="/archive">archive</a></li>
+          <li class="sections-links__list_item {%if page.tab == 'about'%} sections-links--active {% endif %}"><a href="/about">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="content">
+      <main class="text">
         {{ content }}
       </main>
+
+      <aside class="sidebar">
+        <section id="thinks" class="sidebar__links">
+          <h3 class="sidebar__links_header">texts which stimulate the mind</h3>
+          <hr/>
+          <ul class="sidebar__links_list">
+            {% for link in site.theoretical_links %}
+            <li class="sidebar__links_link"> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
+            {% endfor %}
+          </ul>
+        </section>
+
+        <section id="practicals" class="sidebar__links">
+          <h3 class="sidebar__links_header">and inspire action amongst the readers</h3>
+          <hr/>
+          <ul class="sidebar__links_list">
+            {% for link in site.practical_links %}
+            <li class="sidebar__links_link"> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
+            {% endfor %}
+          </ul>
+        </section>
+      </aside>
     </div>
 
-    <aside>
-      <section id="theoreticals">
-        <h3>thinks</h3>
-        <ul>
-        {% for link in site.theoretical_links %}
-          <li> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
-        {% endfor %}
-        </ul>
-      </section>
-
-      <section id="practicals">
-        <h3>does</h3>
-        <ul>
-        {% for link in site.practical_links %}
-          <li> <a href="{{ link[1] }}">{{ link[0] }}</a> </li>
-        {% endfor %}
-        </ul>
-      </section>
-    </aside>
-
-    <footer>
-      <span>Powered by Jekyll, Dreams, and IPAs</span>
-      <span>Copyright 2016 - Stephen Prater</span>
+    <footer class="footer">
+      <span class="footer__element">Powered by Jekyll, Dreams, and IPAs</span>
+      <span class="footer__element">Copyright 2016 - Stephen Prater</span>
     </footer>
   </body>
 </html>

@@ -42,7 +42,7 @@ services:
       - .:/gem/
 {% endhighlight %}
 
-{% include image.html url="/assets/photos/containers.jpg" class="pull-right" caption="Running in containers" %}
+{% include image.html url="/assets/photos/containers.jpg" class="right" caption="Running in containers" %}
 
 This is pretty straightforward, we need to make sure that we have a consul
 container and a `default` container that runs the specs.  Make sure that

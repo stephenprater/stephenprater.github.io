@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "So you wanna be a programmer"
+date:   2016-11-09
+categories: process mentoring unsolicited-advice
+---
+
 Before I start dashing your hopes and dreams, let's get one thing out of the way.
 
 _You are smart, you are capable, and if you desire, you can find success as a
@@ -28,7 +35,7 @@ Convincing your future teammates that you will make their life easier / better
 is not a guaranteed job, but failing to convince them of this is a significant
 hurdle, and convincing them of the opposite is a success-proof strategy.
 
-{% include image.html url="/assets/photos/whatever-shall-i-do.jpg" class="pull-right" caption="Whatever shall I do?" %}
+{% include image.html url="/assets/photos/whatever-shall-i-do.jpg" class="right" caption="Whatever shall I do?" %}
 
 One of the ways that you show you CAN contribute is to ACTUALLY contribute. Find
 an open source project and make some patches.  With a few notable exceptions,
@@ -73,7 +80,7 @@ she would miss the deadline (she missed it by almost 3 weeks, but she did comple
 it.) She did not get that job, or the next one, but by her third interview coding
 tests were old hat, and she aced it and got the job.  You WILL lose.  Keep fighting.
 
-{% include image.html url="/assets/photos/bo-staff-skills.jpg" class="pull-left" caption="Bo Staff Skills" %}
+{% include image.html url="/assets/photos/bo-staff-skills.jpg" class="left" caption="Bo Staff Skills" %}
 
 The other "winning" attribute is curiosity.  A different mentee of mine was working
 with me on a complicated graphics project.  I had mentioned offhandedly some
@@ -130,7 +137,7 @@ learning that the several thousand dollars you spent on a dev bootcamp is not a
 job guarantee is certainly bad news - but I'll reiterate - you are already half
 way there.
 
-{% include image.html url="/assets/photos/nevermore.jpg" class="pull-right" caption="Awwwwwwwwwwwwwk" %}
+{% include image.html url="/assets/photos/nevermore.jpg" class="right" caption="Awwwwwwwwwwwwwk" %}
 
 Being a Jr. Developer is HARD.  In a lot of ways it's harder than being the
 grizzled old vet.  You don't know what you don't know, and you're entering

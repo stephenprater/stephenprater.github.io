@@ -1,9 +1,18 @@
 ---
 ---
 
-$very-light-grey: #e2e2e2;
-$dark-red: #960402;
-$cadet: #3f89aa;
+$pageWidth: 1075;
+$textWidth: 760;
+$textGrey: #919191;
+$darkRed: #960402;
+$cadetBlue: #5F9BBC;
+
+@mixin centerElement {
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
 
 @mixin clearfix {
   &:after {
@@ -13,380 +22,402 @@ $cadet: #3f89aa;
   }
 }
 
-@font-face {
-  font-family: 'codex';
-  src: url('../assets/Codex.eot');
-  src: url('../assets/Codex.eot?#iefix') format('embedded-opentype'),
-    url('../assets/Codex.woff') format('woff'),
-    url('../assets/Codex.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+.page {
+  background-image: url('../assets/background-tree.png');
+  background-position: bottom left;
+  background-position-x: -20%;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-attachment: fixed;
 
-@media only screen and (max-width: 500px) {
-  body > nav ul#contact {
-    width: 100px;
-    top: 50px;
-    li {
-      display: block;
-      height: 100px;
-      width: 100px;
-    }
+  @media(max-width: 768px) {
+    background: none;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  aside {
-    display: none;
-  }
+header {
+  @include centerElement;
+  width: $pageWidth;
 
-  ul#post_list > a {
-    display: block;
-    span.date {
-
-    }
-  }
-
-  header {
-    width: 100%;
-    text-align: center;
-  }
-
-  body > main {
-    width: 85%;
-    background: rgba(255,255,255,0.95);
-    top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1.25em;
-    float: none;
-
-    h2 > .date {
-      padding-left: 0;
-    }
-  }
-
-  body > nav {
-    ul#topbar {
-      top: 0px;
-      height: auto;
-      width: 50%;
-      li {
-        width: 85%;
-        background-color: white;
-        border: none;
-        &.active {
-          box-shadow: none;
-          border: none;
-        }
-      }
-    }
-
-    ul#contact {
-      top: 50px;
-    }
-  }
-
-  footer {
-    span {
-      display: block;
-    }
+  @media(max-width: 1100px) {
+    width: 90%;
   }
 }
 
-main {
-  width: 70%;
-  position: relative;
-  padding: 2%;
-  background: rgba(255,255,255,0.75);
-  margin-left: 1%;
-  top: -81px;
-  border: 1px solid darken($very-light-grey, 20%);
-  z-index: 10;
+.title {
+  width: 62%;
+  font-family: 'archetype', 'serif';
+  font-weight: 100;
+  text-transform: lowercase;
+  color: $textGrey;
   float: left;
 
-  hr:last-child {
-    display: none;
+  @media (max-width: 600px) {
+    width: 100%;
   }
 
-  hr.post-divider {
-    background-image: url('../assets/divider.png');
-    border: 0;
-    height: 25px;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  h2 {
-    font-weight: normal;
-    font-family: 'archetype', 'serif';
-    color: $dark-red;
-
-    .date {
-      font-style: italic;
-      font-family: 'garamond-premier-pro', 'serif';
-      color: darken($very-light-grey, 20%);
-      padding-left: 5em;
-      font-size: smaller;
+  h1 {
+    font-size: 2.5em;
+    @media (max-width: 768px) {
+      font-size: 4em;
+      line-height: 2em;
     }
-  }
 
-  .pull-left {
-    float: left;
-  }
-
-  .pull-right {
-    float: right;
-  }
-
-  figure {
-    figcaption {
-      font-family: 'garamond-premier-pro', 'serif';
-      font-weight: bold;
+    @media (max-width: 600px) {
+      font-size: 2em;
+      line-height: 1em;
       text-align: center;
     }
   }
 
-  blockquote {
-    border: 1px solid darken($very-light-grey, 20%);
-    background-color: rgba(235, 235, 235, 0.5);
-    font-family: 'garamond-premier-pro', 'serif';
-    font-size: smaller;
-    width: 75%;
-    p {
-      padding: 0.5rem;
-      margin: 0;
+  h3 {
+    font-size: 1.2em;
+    color: lighten($textGrey, 20%);
+    @media (max-width: 768px) {
+      display: none;
     }
   }
+}
 
-  article > p {
-    &:first-of-type {
-      &:first-letter {
-        color: $cadet;
-        float: left;
-        font-size: 6em;
-        line-height: 1em;
-        vertical-align: bottom;
-        baseline-shift: -5px;
-        font-family: 'codex', 'sans-serif';
-        text-transform: lowercase;
-        padding: {
-          top: 2px;
-          left: 2px;
-          right: 5px;
-          bottom: 0px;
-        }
-        margin: {
-          right: 2px;
-        }
+.contact {
+  width: 37%;
+  float: left;
+  padding: 0;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+
+  &__list {
+    display: block;
+    padding: 0px;
+  }
+
+  &__list_item {
+    display: inline-block;
+    width: 48%;
+    height: 200px;
+
+    @media (max-width: 600px) {
+      width: 50%;
+      height: 75px;
+      float: left;
+      margin-bottom: 10px;
+    }
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      color: $textGrey;
+      font-family: 'archetype', 'serif';
+      font-size: 1.2em;
+      text-decoration: none;
+      margin-top: 2em;
+
+      span {
+        visibility: hidden;
+      }
+
+      &:hover span {
+        visibility: visible;
       }
     }
   }
 
-  p {
-    font-family: 'garamond-premier-pro', 'serif';
-    font-size: larger;
-    line-height: 1.5em;
-    text-indent: 1em;
+  &--twitter {
+    background-image: url('../assets/twitter-bird.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
-  ol {
+  &--github {
+    background-image: url('../assets/octo-cat.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
 
+.sections-links {
+  @include centerElement;
+  width: $pageWidth;
+  clear: both;
+  font-family: 'carta-marina', sans-serif;
+  color: darken($textGrey, 20%);
+
+  a {
+    text-decoration: none;
+
+    &:visited {
+      color: darken($textGrey, 20%);
+    }
   }
 
-  ul#post_list {
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
+  @media (max-width: 1100px) {
+    width: 90%;
+    @include centerElement;
+  }
 
-    span.date {
-      float: right;
+
+
+  &__list {
+    display: block;
+    @include clearfix;
+    margin: 0;
+    width: $textWidth;
+    box-sizing: border-box;
+    position: relative;
+    padding-left: 0;
+
+    @media(max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  &__list_item {
+    &:first-of-type {
+      margin-left: 1em;
     }
 
+    display: block;
+    float: left;
+    border: 10px solid transparent;
+    border-bottom: 0;
+    border-image: url('../assets/border-line.svg') 2 stretch;
+    margin: {
+      left: 2em;
+      bottom: 0px;
+    }
+    padding-bottom: 10px;
+    text-align: center;
+    width: 10em;
+    background-color: lighten($textGrey, 40%);
+
+    @media (max-width: 768px) {
+      &:first-of-type {
+        margin: {
+          left: auto;
+          right: auto;
+        }
+      }
+
+      margin: {
+        left: auto;
+        right: auto;
+      }
+
+      float: none;
+      width: 65%;
+    }
+  }
+
+  &--active {
+    position: relative;
+    margin-top: -10px;
+    padding-bottom: 20px;
+    top: 10px;
+    background-color: white;
+
+    @media (max-width: 768px) {
+      position: inherit;
+      margin-top: inherit;
+      padding-bottom: 10px;
+      top: inherit;
+
+    }
+  }
+}
+
+.content {
+  @include centerElement;
+  @include clearfix;
+  width: $pageWidth;
+  box-sizing: border-box;
+
+  @media (max-width: 1100px) {
+    box-sizing: content-box;
+    width: 90%;
+    @include centerElement;
+  }
+}
+
+.text {
+  width: $textWidth;
+  border: 10px solid transparent;
+  border-image: url('../assets/border-line.svg') 22 stretch;
+  background-color: rgba(255, 255, 255, 0.88);
+  font-size: 1.1em;
+  padding: 1.25em;
+  line-height: 1.68em;
+  box-sizing: border-box;
+  float: left;
+  font-family: "adobe-garamond-pro", 'serif';
+
+  @media (max-width: 1100px) {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  article > p:first-of-type:first-letter {
+    font-size: 3.25em;
+    font-family: 'archetype', 'serif';
+    line-height: 1.1em;
+    margin-right: 3px;
+    float: left;
+  }
+
+  &__figure {
+    margin: 1em;
+    border: 10px solid transparent;
+    border-image: url('../assets/border-line.svg') 22 stretch;
+    img {
+      max-width: 250px;
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+    }
+
+    code {
+      max-width: $textWidth;
+      overflow: hidden;
+    }
+  }
+
+  .left {
+    float: left;
+  }
+
+  .right {
+    float: right;
+  }
+
+  &__title {
+    color: $darkRed;
+    font-family: 'carta-marina', 'sans-serif';
+    font-size: 2.3em;
+  }
+
+  &__date {
+    display: inline-block;
+    font-size: .6em;
+    font-weight: 100;
+    margin-top: 0.5em;
+    font-family: 'adobe-garamond-pro', 'serif';
+    font-style: italic;
+    color: darken($textGrey, 20%)
+  }
+
+  &__post_divider {
+    background-image: url('../assets/rule-line.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    height: 10px;
+    border: none;
+  }
+}
+
+.sidebar {
+  float: left;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.88);
+  width: ($pageWidth - $textWidth - 20px);
+  margin-left: 15px;
+  border: 5px solid transparent;
+  border-image: url('../assets/border-line.svg') 5 stretch;
+
+  @media (max-width: 1100px) {
+    clear: both;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 25px;
+    width: 100%;
+  }
+
+  &__links_header {
+    font-family: 'archetype', 'serif';
+    color: $textGrey;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  &__links_list {
+    padding-left: 1.5em;
+  }
+
+  &__links_link {
+    list-style-type: none;
+
+    &:before {
+      content: "";
+      width: 1em;
+      height: 1em;
+      position: absolute;
+      margin-left: -1.2em;
+      background-image: url('../assets/star.svg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 65%;
+    }
+
+    margin-bottom: 1.25em;
+
     a {
-      color: inherit;
+      color: $cadetBlue;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
   }
-}
 
-body {
-  background-image: url('../assets/background-tree.png');
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 33% 75%;
-  background-attachment: fixed;
-  margin: 0;
-}
-
-header {
-  h1 {
-    font-weight:  normal;
-    font-family: 'archetype', 'sans-serif';
-    display: inline;
-    margin-left: 2%;
-    font-size: 4em;
-    position: relative;
-    top: 10px;
+  hr {
+    width: 62.8%;
+    display: block;
+    background-image: url('../assets/rule-line.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3px;
+    border: none;
   }
 }
 
-aside {
-  background-color: rgba(255,255,255,0.75);
-  border: 1px solid darken($very-light-grey, 20%);
-  float: left;
-  top: -60px;
-  margin-top: -81px;
-  min-height: 400px;
-  width: 20%;
-  font-family: 'garamond-premier-pro', 'serif';
-
-  margin: {
-    left: 10px;
-  }
-
-  padding: {
-    left: 10px;
-    right: 10px;
-  }
-
-
-  h3 {
-    font-weight: bold;
-    border-bottom: 1px solid darken($very-light-grey, 20%);
-  }
-
-  ul {
-    list-style-type: none;
-    list-style-position: outside;
-    padding: 0;
-
-    li {
-      padding: 0;
-    }
-  }
-
-  a {
-    color: darken($very-light-grey, 40%);
-    text-decoration: underline;
-  }
-
-}
-
-nav {
-  @include clearfix;
-  position: relative;
-
-  ul {
-    list-style: none;
-    margin-left: 1em;
-    padding-left: 1em;
-
-    &#topbar {
-      height: 49px;
-      overflow: hidden;
-      position: relative;
-      top: 7px;
-      width: 50%;
-      z-index: 100;
-
-      li {
-        background-color: transparent;
-        display: inline-block;
-        margin-right: 5%;
-        padding-bottom: .75em;
-        padding-top: .15em;
-        position: relative;
-        text-align: center;
-        top: 3px;
-        width: 25%;
-
-        border: {
-          bottom: 1px solid darken($very-light-grey, 20%);
-        }
-
-        &.active {
-          background-color: white;
-
-          border: {
-            left: 1px solid darken($very-light-grey, 20%);
-            right: 1px solid darken($very-light-grey, 20%);
-            top: 1px solid darken($very-light-grey, 20%);
-          };
-
-          box-shadow: 5px 5px 5px $very-light-grey;
-        }
-
-        a {
-          color: grey;
-          font-family: 'archetype', 'serif';
-          font-size: 1.5em;
-          line-height: 1.75em;
-          text-decoration: none;
-          vertical-align: center;
-          display: block;
-          position: relative;
-        }
-      }
-    }
-
-    &#contact {
-      display: block;
-      float: right;
-      margin-top: -80px;
-      max-height: 200px;
-      position: relative;
-      width: 40%;
-
-      li {
-        display: inline-block;
-        height: 200px;
-        width: 45%;
-        max-height: 200px;
-        max-width: 200px;
-
-        a {
-          display: block;
-          height: 100%;
-          width: 100%;
-          text-indent: -9999px;
-        }
-
-        &.twitter {
-          background-image: url('../assets/twitter.png');
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: 90%;
-        }
-
-        &.github {
-          background-image: url('../assets/github.png');
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: 100%;
-        }
-      }
-    }
-  }
-}
-
-footer {
+.footer {
+  @include centerElement;
+  width: $pageWidth;
+  font-family: 'adobe-garamond-pro', 'serif';
   text-align: center;
-  clear: left;
+  margin-top: 25px;
 
-  margin: {
-    top: 0.5em;
+  @media (max-width: 1100px) {
+    width: 100%;
   }
 
-  span {
-    color: darken($very-light-grey, 30%);
-    font-family: 'garamond-premier-pro', 'serif';
-
-    &:first-child::after {
-      content: '\00A0\00A0\2022\00A0'
+  &__element {
+    display: block;
+    &:last-of-type {
+      margin-top: 1em;
     }
+  }
+}
+
+.archive {
+  a {
+    color: $darkRed;
+  }
+
+  &__title {
+    color: $darkRed;
+    font-family: 'archetype', 'serif';
+  }
+
+  &__date {
+    color: darken($textGrey, 20%);
+    font-size: smaller;
   }
 }

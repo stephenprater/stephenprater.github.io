@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: aliquid radix
+title: here blogs a prater
 email: me@stephenprater.com
 description: > # this means to ignore newlines until "baseurl:"
   A blog about technical somethings, the roots of which I am
@@ -45,6 +45,8 @@ theoretical_links:
 
 practical_links:
   "DOOM SQUAD OSS": https://github.com/DOOM-SQUAD
+  "PDX Ruby": https://pdxruby.org/
+  "Gun Dog (Arf)": https://github.com/stephenprater/gun_dog
 
 # Build settings
 markdown: kramdown

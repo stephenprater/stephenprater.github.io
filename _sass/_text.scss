@@ -1,0 +1,99 @@
+.text {
+  float: left;
+  width: $textWidth;
+  padding: 1.25em;
+  line-height: 1.68em;
+  box-sizing: border-box;
+
+  border: 10px solid transparent;
+  border-image: url('../assets/border-line.svg') 22 stretch;
+  background-color: rgba(255, 255, 255, 0.88);
+
+  font-family: "adobe-garamond-pro", 'serif';
+  font-size: 1.1em;
+
+  @media (max-width: $laptopBreak) {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  article > p:first-of-type:first-letter {
+    float: left;
+    margin-right: 3px;
+
+    font-size: 3.25em;
+    font-family: 'archetype', 'serif';
+    line-height: 1.1em;
+  }
+
+  &__figure {
+    margin: 1em;
+
+    border: 10px solid transparent;
+    border-image: url('../assets/border-line.svg') 22 stretch;
+
+    img {
+      max-width: 250px;
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+    }
+
+    code {
+      max-width: $textWidth;
+      overflow: hidden;
+    }
+  }
+
+  .left {
+    float: left;
+
+    @media(max-width: $phoneBreak) {
+      @include centerElement;
+      float: none;
+      width: 400px;
+      text-align: center;
+    }
+  }
+
+  .right {
+    float: right;
+
+    @media(max-width: $phoneBreak) {
+      @include centerElement;
+      float: none;
+      width: 400px;
+      text-align: center;
+    }
+  }
+
+  &__title {
+    color: $darkRed;
+    font-family: 'carta-marina', 'sans-serif';
+    font-size: 2.3em;
+  }
+
+  &__date {
+    display: inline-block;
+    margin-top: 0.5em;
+
+    color: darken($textGrey, 20%);
+    font-size: .6em;
+    font-weight: 100;
+    font-family: 'adobe-garamond-pro', 'serif';
+    font-style: italic;
+  }
+
+  &__post_divider {
+    height: 10px;
+
+    background-image: url('../assets/rule-line.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+
+    border: none;
+  }
+}

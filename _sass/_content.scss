@@ -1,0 +1,14 @@
+.content {
+  @include centerElement;
+  @include clearfix;
+
+  width: $pageWidth;
+  box-sizing: border-box;
+
+  @media (max-width: 1100px) {
+    @include centerElement;
+
+    width: 90%;
+    box-sizing: content-box;
+  }
+}

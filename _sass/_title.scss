@@ -1,0 +1,38 @@
+.title {
+  width: 62%;
+  float: left;
+
+  font-family: 'archetype', 'serif';
+  font-weight: 100;
+  text-transform: lowercase;
+  color: $textGrey;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5em;
+
+    @media (max-width: 768px) {
+      font-size: 4em;
+      line-height: 2em;
+    }
+
+    @media (max-width: 600px) {
+      font-size: 2em;
+      line-height: 1em;
+      text-align: center;
+    }
+  }
+
+  h3 {
+    font-size: 1.2em;
+    color: lighten($textGrey, 20%);
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+

@@ -1,0 +1,15 @@
+.archive {
+  a {
+    color: $darkRed;
+  }
+
+  &__title {
+    color: $darkRed;
+    font-family: 'archetype', 'serif';
+  }
+
+  &__date {
+    color: darken($textGrey, 20%);
+    font-size: smaller;
+  }
+}

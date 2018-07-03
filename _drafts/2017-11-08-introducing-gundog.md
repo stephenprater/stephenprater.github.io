@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "In which In introduce you to my new puppy"
+title:  "In which I introduce you to my new puppy"
 date:   2017-11-07
 categories: tools gems howto tracepoint
 ---
@@ -14,7 +14,7 @@ and long since forgotten or obsolete "business rules."
 {% include image.html url="/assets/photos/spaghetti.jpg" class="right" caption="A picture of my code base." %}
 
 Given the tendency of Big Bang refactors to fail, and the impatience that
-stakeholders rightfully posses for developers who vanish into code holes and
+stakeholders rightfully possess for developers who vanish into code holes and
 emerge six weeks later with beautiful (and incorrect) software - we wanted to
 start by just figuring out what we need to do.
 
@@ -33,7 +33,7 @@ always the same.  In order to implement _what we have now_ I need to **know**
 what we have now.  In a staticly typed language this is relatively
 straightforward - every method has a signature, and we can find the places where
 those methods are called with the help of static analysis.  Ruby - for all of
-its many pleasures, does not (cannot) perform this kind of operation.  We need
+its many pleasures, does not (cannot?) perform this kind of operation.  We need
 to discovery the Duck Type of the classes we want to refactor.
 
 Coverage tools will tell us what code was called, but won't tell us who called
@@ -44,7 +44,7 @@ but it can be difficult to focus in on only the parts we need.
 
 Luckily for us, Ruby > 2.0 has this cool feature called Tracepoint. Unluckily
 for us Tracepoint does not come with batteries included - Tracepoint scripts are
-tricky to right and mistakes tend to lead to segfaults and interpreter crashes -
+tricky to write and mistakes tend to lead to segfaults and interpreter crashes -
 so _developer beware_.
 
 GunDog is a collection of Tracepoint scripts and analysis tools for discoverying

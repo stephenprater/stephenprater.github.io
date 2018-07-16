@@ -11,24 +11,24 @@ In raster GIS analysis there is a relatively common piece of analysis called the
 {% include image.html url="/assets/photos/least-cost-paths.png"
 class="left" caption="I wonder where the river is." %}
 
-The algorithim itself is pretty simple - given a "cost surface" find the
+The algorithm itself is pretty simple - given a "cost surface" find the
 cheapest way to get to a different point on the plane.  The "cost surface"
 itself is essentially a grayscale picture where the highest numbers represent
 the highest cost.  The analysis is _excellent_ for finding the path that water
 will take down hills, or if you want to get a little creative, the fastest way
 from your house to the coffeeshop given what you know about road conditions.
 
-It's a simple algorithim - it finds all the paths to the goal, adds up the
+It's a simple algorithm - it finds all the paths to the goal, adds up the
 costs, and takes the cheapest one.  Does that process sound familiar?  Could it be
 ~~SATAN~~ AGILE?
 
 {% include image.html url="/assets/photos/satan.jpg"
 class="right" caption="Spoiler: Probably Not" %}
 
-But the algorithim is not infallible.
+But the algorithm is not infallible.
 
 One of my favorite examples of how people "know" better than the least cost
-algorithim comes from archaeology.  (Disclaimer  - I am not an archaeologist, but
+algorithm comes from archaeology.  (Disclaimer  - I am not an archaeologist, but
 I am married to one so I get some osmostic learning.) Here's the story:
 
 In Central Arkansas, the Arkansas River runs near the base of Petit Jean
@@ -44,7 +44,7 @@ happily climbs directly up it.  Turns out that it's cheaper to climb the cliff
 than to go round to the nice, gentle slope, and cool refreshing water falls on
 the other side of the mountain.
 
-I mean ... c'mon.  Clearly - no sane human is going to stumble upon a shear 100
+I mean ... c'mon.  Clearly - no reasonable human is going to stumble upon a shear 100
 meter cliff and think to themselves "I bet scaling this is easier than going
 around."
 
@@ -92,7 +92,7 @@ little doubt given the "least cost path" analysis that it _is_ in fact cheaper
 to climb the cliff.  It's not really arguable that from the birds-eye view
 (where you can clearly see the entire cost surface) that walking around the cliff
 is the more expensive option.  But while planners like to see themselves as
-the algorithim - with perfect foreknowledge of the lay of the land and all of
+the algorithm - with perfect foreknowledge of the lay of the land and all of
 the costs associated - we are _far, far, far_ more like the people trying to get
 to the top of the mountain to make some Rock Art.
 

@@ -1,0 +1,253 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/0484191/
+*	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	m
+.archive a	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.archive__date	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.archive__title	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact--github	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact--twitter	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact__list	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact__list_item	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.contact__list_item a	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.contact__list_item a span	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.contact__list_item a:hover span	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.content	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.content:after	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.footer	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.footer__element	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.footer__element:last-of-type	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.highlight .bp	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .c	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .c1	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .cm	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .cp	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .cs	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .err	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gd	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .ge	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gh	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gi	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .go	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gp	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gr	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gs	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gt	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .gu	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .hll	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .il	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .k	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kc	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kd	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kn	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kp	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kr	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .kt	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .m	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .mf	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .mh	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .mi	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .mo	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .na	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nb	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nc	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nd	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .ne	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nf	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .ni	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nl	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nn	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .no	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nt	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .nv	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .o	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .ow	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .s	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .s1	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .s2	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sb	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sc	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sd	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .se	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sh	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .si	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sr	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .ss	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .sx	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .vc	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .vg	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .vi	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.highlight .w	_site/css/syntax.css	/^.highlight .hll{background-color:#ffc}.highlight .c{color:#999988;font-style:italic}.highlight ./;"	c
+.page	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links a	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.sections-links a:visited	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.sections-links--active	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links__list	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links__list:after	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links__list_item	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sections-links__list_item:first-of-type	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sidebar	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sidebar hr	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.sidebar__links_header	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sidebar__links_link	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sidebar__links_link a	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.sidebar__links_link a:hover	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.sidebar__links_link:before	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.sidebar__links_list	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text .left	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text .right	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text article>p:first-of-type:first-letter	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.text__date	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text__figure	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text__figure code	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.text__figure figcaption	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.text__figure img	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.text__post_divider	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.text__title	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.title	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	c
+.title h1	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+.title h3	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+A Docker, quickly 12 October 2016	_site/archive.html	/^        <\/h2>$/;"	i
+Edit theme's home layout instead if you wanna make some changes	index.md	/^# Edit theme's home layout instead if you wanna make some changes$/;"	c
+Here is your Handful of Salt	_drafts/2019-10-11-how-to-write-a-resume.md	/^### Here is your Handful of Salt$/;"	S
+How is a developer like a writing desk	_posts/2016-11-09-so-you-wanna-be-a-programmer.markdown	/^### How is a developer like a writing desk$/;"	S
+How to Use `unique_call_signatures`	_drafts/2017-11-08-introducing-gundog.md	/^# How to Use `unique_call_signatures`$/;"	c
+How to use TraceExplorer	_drafts/2017-11-08-introducing-gundog.md	/^# How to use TraceExplorer$/;"	c
+I am Prater	_site/about/index.html	/^        <h2 id="i-am-prater">I am Prater<\/h2>$/;"	i
+I am Prater	about.md	/^## I am Prater$/;"	s
+In the Before Now	_drafts/2019-08-29-announcing-userland-cloud.md	/^# In the Before Now$/;"	c
+Layer_1-2	_site/assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	i
+Layer_1-2	_site/assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	i
+Layer_1-2	_site/assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	i
+Layer_1-2	assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	i
+Layer_1-2	assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	i
+Layer_1-2	assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	i
+Layer_2	_site/assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	i
+Layer_2	_site/assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	i
+Layer_2	_site/assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	i
+Layer_2	assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	i
+Layer_2	assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	i
+Layer_2	assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	i
+No one hires bootcamp graduates	_posts/2016-11-09-so-you-wanna-be-a-programmer.markdown	/^### No one hires bootcamp graduates$/;"	S
+See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults	index.md	/^# See: https:\/\/jekyllrb.com\/docs\/themes\/#overriding-theme-defaults$/;"	c
+So you wanna be a programmer 09 November 2016	_site/archive.html	/^        <\/h2>$/;"	i
+Software Is Not A Factory	_posts/2017-10-05-the-path-of-least-cost.markdown	/^## Software Is Not A Factory$/;"	s
+Story Time	_drafts/2019-08-29-announcing-userland-cloud.md	/^## Story Time$/;"	s
+Stupid Ruby Tricks 18 October 2016	_site/archive.html	/^        <\/h2>$/;"	i
+Tell Me A Story	_drafts/2019-10-11-how-to-write-a-resume.md	/^### Tell Me A Story$/;"	S
+The Book of NATS I - Chapter 3 13 March 2018	_site/archive.html	/^        <\/h2>$/;"	i
+The Conventional Wisdom Makes you Look Conventional	_drafts/2019-10-11-how-to-write-a-resume.md	/^### The Conventional Wisdom Makes you Look Conventional$/;"	S
+The Conventional Wisdom is Actual Wisdom Tho	_drafts/2019-10-11-how-to-write-a-resume.md	/^### The Conventional Wisdom is Actual Wisdom Tho$/;"	S
+The Curtain Lifts	_drafts/2019-08-29-announcing-userland-cloud.md	/^## The Curtain Lifts$/;"	s
+The Path of Least Cost 07 November 2017	_site/archive.html	/^        <\/h2>$/;"	i
+To All The Computers I've Known Before	_drafts/2019-10-11-how-to-write-a-resume.md	/^### To All The Computers I've Known Before$/;"	S
+We're going on a Duck Hunt. (We're gonna catch a big one.)	_drafts/2017-11-08-introducing-gundog.md	/^## We're going on a Duck Hunt. (We're gonna catch a big one.)$/;"	s
+Welcome to the blog post! 09 October 2016	_site/archive.html	/^        <\/h2>$/;"	i
+You are unique, just Like every other self-directed learner who likes to solve hard problems	_drafts/2019-10-11-how-to-write-a-resume.md	/^### You are unique, just Like every other self-directed learner who likes to solve hard problems$/;"	S
+You don't need to edit this file, it's empty on purpose.	index.md	/^# You don't need to edit this file, it's empty on purpose.$/;"	c
+You will never be "good" at this job	_posts/2016-11-09-so-you-wanna-be-a-programmer.markdown	/^### You will never be "good" at this job$/;"	S
+Your actual skills are not programming	_posts/2016-11-09-so-you-wanna-be-a-programmer.markdown	/^### Your actual skills are not programming$/;"	S
+a	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	n	uri:http://www.w3.org/2005/Atom
+a:entry	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	m
+a:feed	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	m
+a:published|a:updated	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	m
+a:title	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	m
+and inspire action amongst the readers	_layouts/default.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/about/index.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/archive.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+and inspire action amongst the readers	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^          <h3 class="sidebar__links_header">and inspire action amongst the readers<\/h3>$/;"	j
+categories: agile process weird-stories	_posts/2017-10-05-the-path-of-least-cost.markdown	/^categories: agile process weird-stories$/;"	s
+categories: cautionary-tales tools nats	_posts/2018-03-13-1st-nats-chapter-3.md	/^categories: cautionary-tales tools nats$/;"	s
+categories: devops testing howto	_drafts/2019-08-25-testing-your-infrastructure.md	/^categories: devops testing howto$/;"	s
+categories: docker ops howto	_posts/2016-10-12-quickly-docker.markdown	/^categories: docker ops howto$/;"	s
+categories: jekyll update	_posts/2016-10-09-welcome-to-the-jekyll.markdown	/^categories: jekyll update$/;"	s
+categories: mentoring unsolicited-advice writing	_drafts/2019-10-11-how-to-write-a-resume.md	/^categories: mentoring unsolicited-advice writing$/;"	s
+categories: process mentoring unsolicited-advice	_posts/2016-11-09-so-you-wanna-be-a-programmer.markdown	/^categories: process mentoring unsolicited-advice$/;"	s
+categories: product announcement	_drafts/2019-08-29-announcing-userland-cloud.md	/^categories: product announcement$/;"	s
+categories: ruby	_posts/2016-10-18-stupid-ruby-tricks.markdown	/^categories: ruby$/;"	s
+categories: tools gems howto tracepoint	_drafts/2017-11-08-introducing-gundog.md	/^categories: tools gems howto tracepoint$/;"	s
+header	_site/css/styles.css	/^.page{background-image:url("..\/assets\/background-tree.png");background-position:bottom left;ba/;"	s
+how-is-a-developer-like-a-writing-desk	_site/index.html	/^<h3 id="how-is-a-developer-like-a-writing-desk">How is a developer like a writing desk<\/h3>$/;"	I
+how-is-a-developer-like-a-writing-desk	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="how-is-a-developer-like-a-writing-desk">How is a developer like a writing desk<\/h3>$/;"	I
+i-am-prater	_site/about/index.html	/^        <h2 id="i-am-prater">I am Prater<\/h2>$/;"	I
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_layouts/default.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/about/index.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/archive.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/index.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^        <\/h3>$/;"	j
+in which i hold forth upon various and sundry issues of import to persons employed in the production of software and am promptly and roundly ignored	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^        <\/h3>$/;"	j
+layout: home	index.md	/^layout: home$/;"	s
+no-one-hires-bootcamp-graduates	_site/index.html	/^<h3 id="no-one-hires-bootcamp-graduates">No one hires bootcamp graduates<\/h3>$/;"	I
+no-one-hires-bootcamp-graduates	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="no-one-hires-bootcamp-graduates">No one hires bootcamp graduates<\/h3>$/;"	I
+ns6b9212b20101	assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	n	uri:http://www.w3.org/2000/svg
+ns92979f980101	assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	n	uri:http://www.w3.org/2000/svg
+ns984146150101	_site/assets/rule-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 258.59 4.09"><defs><style>.cls-1{fill:#/;"	n	uri:http://www.w3.org/2000/svg
+ns9bc383bf0101	assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	n	uri:http://www.w3.org/2000/svg
+nsa17ebafb0101	_site/feed.xml	/^<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text\/xml" href="http:\/\/0.0.0.0:4/;"	n	uri:http://www.w3.org/2005/Atom
+nsa7e137bb0101	_site/assets/border-line.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 246.05 246.13"><defs><style>.cls-1{fill/;"	n	uri:http://www.w3.org/2000/svg
+nsc4d94d420101	_site/assets/star.svg	/^<svg xmlns="http:\/\/www.w3.org\/2000\/svg" viewBox="0 0 7.99 4.93"><title>star_1<\/title><g id=/;"	n	uri:http://www.w3.org/2000/svg
+practicals	_layouts/default.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/about/index.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/archive.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/index.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+practicals	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^        <section id="practicals" class="sidebar__links">$/;"	I
+prater's blog	_layouts/default.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/about/index.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/archive.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/index.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+prater's blog	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^        <h1 class="title__main">prater's blog<\/h1>$/;"	h
+pull our ruby version	_posts/2016-10-12-quickly-docker.markdown	/^# pull our ruby version$/;"	c
+software-is-not-a-factory	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^<h2 id="software-is-not-a-factory">Software Is Not A Factory<\/h2>$/;"	I
+software-is-not-a-factory	_site/index.html	/^<h2 id="software-is-not-a-factory">Software Is Not A Factory<\/h2>$/;"	I
+tab: about	about.md	/^tab: about$/;"	s
+texts which stimulate the mind	_layouts/default.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/about/index.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/archive.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+texts which stimulate the mind	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^          <h3 class="sidebar__links_header">texts which stimulate the mind<\/h3>$/;"	j
+thinks	_layouts/default.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/about/index.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/agile/process/weird-stories/2017/11/07/the-path-of-least-cost.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/archive.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/cautionary-tales/tools/nats/2018/03/13/1st-nats-chapter-3.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/docker/ops/howto/2016/10/12/quickly-docker.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/index.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/jekyll/update/2016/10/09/welcome-to-the-jekyll.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+thinks	_site/ruby/2016/10/18/stupid-ruby-tricks.html	/^        <section id="thinks" class="sidebar__links">$/;"	I
+xsl	_site/feed.xslt.xml	/^><xsl:strip-space elements="*"\/><xsl:output method="text"\/><xsl:template match="*"\/><xsl:temp/;"	n	uri:http://www.w3.org/1999/XSL/Transform
+you-will-never-be-good-at-this-job	_site/index.html	/^<h3 id="you-will-never-be-good-at-this-job">You will never be “good” at this job<\/h3>$/;"	I
+you-will-never-be-good-at-this-job	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="you-will-never-be-good-at-this-job">You will never be “good” at this job<\/h3>$/;"	I
+your-actual-skills-are-not-programming	_site/index.html	/^<h3 id="your-actual-skills-are-not-programming">Your actual skills are not programming<\/h3>$/;"	I
+your-actual-skills-are-not-programming	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="your-actual-skills-are-not-programming">Your actual skills are not programming<\/h3>$/;"	I
+{{ post.title }} {{ post.date | date_to_long_string }}	archive.html	/^        <\/h2>$/;"	i

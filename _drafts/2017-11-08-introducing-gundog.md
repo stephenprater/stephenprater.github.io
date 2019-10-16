@@ -34,7 +34,7 @@ what we have now.  In a staticly typed language this is relatively
 straightforward - every method has a signature, and we can find the places where
 those methods are called with the help of static analysis.  Ruby - for all of
 its many pleasures, does not (cannot?) perform this kind of operation.  We need
-to discovery the Duck Type of the classes we want to refactor.
+to discover the Duck Type of the classes we want to refactor.
 
 Coverage tools will tell us what code was called, but won't tell us who called
 them.
@@ -66,6 +66,7 @@ Probably one of the more useful one is `unique_call_signatures` - which outputs
 the names (and argument types) of every method called from within the GunDog
 trace block.
 
+# How to Use `unique_call_signatures`
 
-
+# How to use TraceExplorer
 

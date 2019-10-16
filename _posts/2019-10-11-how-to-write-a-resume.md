@@ -15,22 +15,17 @@ achievements and relating everything you've ever done in terms of _crushing
 those KPIs_ and _LOOK AT ALL THE MONEY_.
 
 This isn't bad advice, but it tends to result in a whole lot of largely
-indistinguishable pablum. The kind of resumés I get to read are obviously for
-software developers and the ones that get rejected fall into two basic
-categories.
+indistinguishable pablum. A resumé that performs all of the standard tricks is
+like a Ford Focus - servicable, but unexciting. (Full Disclosure: I drive a Ford
+Focus. It's a fine automobile, but I don't _get excited_ about driving it. Your
+goal in applying for a job is get your future teammates _excited_ about working
+with you.)
+
+The kind of resumés I get to read are obviously for software developers and the
+ones that get rejected fall into two basic categories.
 
 1. All Computers I Have Known
 2. I Am A Self-Directed Learner Who Likes To Solve Hard Problems
-
-If you by some chance find yourself writing a bulleted list of technologies
-longer than like ... 5 then _just stop_. Back up and write down the interesting
-ones! I'm sure it's interesting to the right audience that you used some Java
-program I've never heard of to do a task I don't understand, but this is a
-Python shop and I just wanna know if you can AWS.
-
-And, for the love of dog, if you have that second sentence in your resumé or cover
-letter, please remove it unless you know for a hard absolute fact that you are
-talking to a machine.
 
 As a human, these are the ones that make my eyes glaze over and skip to the end
 where I can plausibly say I've reviewed your resumé and then throw it away.
@@ -39,21 +34,22 @@ you, you have violated the One Commandment of Getting A Job:
 
 > Convince your future teammates that you will make their life easier.
 
-Interestingly - I find that junior resumés tend toward the second type while the
-senior resumés are clustered around the first. I get that the plural of
+Interestingly - I find that senior resumés tend toward the first type while the
+junior resumés are clustered around the second. I get that the plural of
 anecdote is not data, so take that with as much salt as you need.
 
-Let's talk about these failure modes and what you ought to do to address them.
+Let's talk about these two failure modes and what you ought to do to address
+them.
 
 ### The Conventional Wisdom is Actual Wisdom Tho
 
 {% include image.html url="/assets/photos/gandalf.jpg" class="right"
 caption="Killed a Balrog, increasing Hobbit survival rate by 10,000%" %}
 
-So I kinda ran down the "conventional wisdom" back there, which was a little
-unfair, because there's some good stuff in there. I'm guessing you all know or
-have heard of these, since we all have Google and we've all looked up
-"why does my resumé keep getting rejected?"
+But first, an aside: I kinda ran down the "conventional wisdom" back there,
+which was a little unfair, because there's some good stuff in there. I'm
+guessing you all know or have heard of these, since we all have Google and we've
+all looked up "why does my resumé keep getting rejected?"
 
 So quick recap:
 
@@ -61,10 +57,11 @@ So quick recap:
 you are!
 2. _Measurable Outcomes_ - All these graphs go up and to the right, because
 that's where the future is!
-3. _Please, please, please proofread_ - Read it out loud to yourself. If it's
-boring to read your resumé as a dramatic monologue to your friends and family,
-it's boring for me to read it. Make sure that it makes sense!
+3. _Please, please, please proofread_ - You probably won't get dinged for dangling
+participles or whatever, but consistent misuse of words or a lot of common
+grammar mistakes (they're, there, their) are Bad News.
 
+Now onto critiquing the bad resumé you may have already written.
 
 ### To All The Computers I've Known Before
 
@@ -116,6 +113,12 @@ Processing.JS?" - if the prime directive of job interviewing is showing how
 you will make your team's life easier, start by demonstrating this by making
 the reviewers job *easy*.
 
+If you by some chance find yourself writing a bulleted list of technologies
+longer than like ... 5 then _just stop_. Back up and write down the interesting
+ones! I'm sure it's interesting to the right audience that you used some Java
+program I've never heard of to do a task I don't understand, but this is a
+Python shop and I just wanna know if you can AWS.
+
 ### You are unique, just Like every other self-directed learner who likes to solve hard problems
 
 {% include image.html url="/assets/photos/snowflake.jpg" class="left" caption="Does it really matter that they're all unique when there are eleventy-billion of them?" %}
@@ -124,23 +127,25 @@ Next to "I'm sorry sir, but that's our policy." - this has got to be my least
 favorite sentence in the English language. It's almost entirely content free
 and everybody knows that you're either lying or dissembling.[<sup>1</sup>](#liar)
 
-I think this is an example of "telling not showing" in resumé writing. Like the
-sentence "Sir Gilroy the Fair is the hero of this story" - it only really works
-as satire. You need to find a way to demonstrate this truth to your reader
+For the love of dog, if you have this sentence in your resumé or cover letter,
+please remove it unless you know for a hard absolute fact that you are talking
+to a machine. It is the platonic form of "telling not showing" in writing. Like
+the sentence "Sir Gilroy the Fair is the hero of this story" - it only really
+works as satire. You need to find a way to demonstrate this truth to your reader
 without just baldly stating it.
 
-So - what's an engaging way of telling this story, without resorting to
-asserting it free of context. Start by telling yourself a story about a time it
-was true about you:
+Think about this: What's an engaging way of telling this story, without
+resorting to asserting it free of context? Start by telling a story
+about a time it was _true of you_:
 
 > "This one time, I was supposed to make a poker game, but I didn't know anything
 > about poker, so I learned all about poker, and wrote a program that I couldn't
 > beat at poker."
 
 Now, if you're a newish developer you might have to dig pretty deep on this one -
-and you probably only have a limited set of really good stories to draw on -
-but just think about it. When was the last time you encountered a seemingly
-intractable problem you needed to do some research to solve? Like last week?
+and you probably only have a limited set of really good stories to draw on.
+But think about it - when was the last time you encountered a seemingly
+intractable problem you needed to do some research to solve? Last week?
 If you've never had to do this, then you might need to do some more
 training. Being a "self-directed learner who likes to solve hard problems" is
 a significant fraction of being a developer. Everybody has this.
@@ -155,7 +160,7 @@ at the end of your resumé I'm having a The-End-of-Return-of-the-Jedi moment.
 "Yeah, that was awesome! What happens next? Let's make a sequel! And not wait 30
 years!"
 
-{% include image.html url="/assets/photos/ewok.png" class="right" caption="Me and this stick gonna mess you up." %}
+{% include image.html url="/assets/photos/ewok.png" class="right" caption="Me and this stick gonna mess you up" %}
 
 Okay, RoTJ might be a bit of a stretch, and I'm not advocating for you to
 include tiny, savage bears in your cover letter, but please make your job

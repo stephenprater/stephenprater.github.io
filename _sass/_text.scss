@@ -45,9 +45,9 @@
   }
 
   figure {
-    text-align: center
+    text-align: center;
     code {
-      text-align: left
+      text-align: left;
     }
   }
 
@@ -81,23 +81,27 @@
 
   .left {
     float: left;
+    margin-left: 0em;
 
     @media(max-width: $phoneBreak) {
       @include centerElement;
       float: none;
       width: 400px;
       text-align: center;
+      margin-left: inherit;
     }
   }
 
   .right {
     float: right;
+    margin-right: 0em;
 
     @media(max-width: $phoneBreak) {
       @include centerElement;
       float: none;
       width: 400px;
       text-align: center;
+      margin-right: inherit;
     }
   }
 

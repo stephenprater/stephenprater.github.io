@@ -35,7 +35,7 @@ talking to a machine.
 As a human, these are the ones that make my eyes glaze over and skip to the end
 where I can plausibly say I've reviewed your resumé and then throw it away.
 Please do not make my job hard. If you make my job hard before I've even hired
-you, you have violated the One Commandment of Getting Job:
+you, you have violated the One Commandment of Getting A Job:
 
 > Convince your future teammates that you will make their life easier.
 
@@ -52,10 +52,10 @@ caption="Killed a Balrog, increasing Hobbit survival rate by 10,000%" %}
 
 So I kinda ran down the "conventional wisdom" back there, which was a little
 unfair, because there's some good stuff in there. I'm guessing you all know or
-have heard of these we all have Google and we've all looked up
+have heard of these, since we all have Google and we've all looked up
 "why does my resumé keep getting rejected?"
 
-So quick recap.
+So quick recap:
 
 1. _Action Words_ - make it sound like you're the star of this story, because
 you are!
@@ -104,13 +104,13 @@ so we'll just leave that part out.
 
 I tend to put these in a little list right under my name, so that
 people can read my resumé and see the intersection between what they're looking
-for and what I have right away. If I need to read several pages of
+for and what I have right away. That way, they don't have to read several pages of
 responsibilities, or things like this:
 
 > Created custom dashboard for Elatic Monitoring for RHEL 6.4 clusters written in
   Processing.js and Graylog
 
-I don't know what half of that means, I have to read your resumé _really
+I don't know what half of that means, and I have to read your resumé _really
 carefully_ to come up with the answer to my question "Does this person know
 Processing.JS?" - if the prime directive of job interviewing is showing how
 you will make your team's life easier, start by demonstrating this by making
@@ -151,7 +151,7 @@ People tend to approach cover letters and job applications as opportunities to
 list a lot of good things about themselves, or to tell other people about
 themselves. I think this is *exactly* the wrong approach. Tell me a story with
 you as the hero. Make it engaging. Make it a thing that I want to read so that
-at the end of your resumé I'm having an The End of Return of the Jedi moment.
+at the end of your resumé I'm having a The-End-of-Return-of-the-Jedi moment.
 "Yeah, that was awesome! What happens next? Let's make a sequel! And not wait 30
 years!"
 
@@ -167,49 +167,49 @@ document then you've just demonstrated the opposite. STAHP.
 All of that is easier said than done. Here are some actionable tips to
 make your resumé better.
 
-1. Read. It. Aloud.
+1. **Read. It. Aloud.**
 
-Seriously do this one. This is like the secret to good writing. Read
-it aloud, maybe even to an audience and see if it sounds engaging.  Perform your
-resumé like a one act play and make sure that you're the hero.
+    Seriously do this one. This is like the secret to good writing. Read
+    it aloud, maybe even to an audience and see if it sounds engaging.  Perform your
+    resumé like a one act play and make sure that you're the hero.
 
-2. Write the Resume You Wish You Had
+2. **Write the Resume You Wish You Had**
 
-Do not send me lies, but write down a fictionalized account of your career up to
-this point.  This shows _you_ your values.  Did you write "\* Improved
-performance of page load 1000%" or "\* Created a new process for gnarfling the
-garthok that saved the company $1000 per millisecond"?   You have revealed the
-kind of thing you'd _like_ to write down, and the sort of story you'd _like_ to
-star in.  Now go back to your "real life" and write the same sort of stories
-from your experience. "\* Decreased page size from 20M to 150K" and "\*
-Developed a Garthok Gnarfling Guide to share with other developers."
+    Do not send me lies, but write down a fictionalized account of your career up to
+    this point.  This shows _you_ your values.  Did you write "\* Improved
+    performance of page load 1000%" or "\* Created a new process for gnarfling the
+    garthok that saved the company $1000 per millisecond"?   You have revealed the
+    kind of thing you'd _like_ to write down, and the sort of story you'd _like_ to
+    star in.  Now go back to your "real life" and write the same sort of stories
+    from your experience. "\* Decreased page size from 20M to 150K" and "\*
+    Developed a Garthok Gnarfling Guide to share with other developers."
 
-3. Keep it short.  Tailor it to every job.
+3. **Keep it short.  Tailor it to every job.**
 
-Every job is different.  Get good at tailoring your experience and
-accomplishments to individual companies. Do not tell me how good you are at
-sword fighting if we're going to get in a laser gun fight on Endor. This seems
-like a lot of work until you do it a few times and you find that you can remix a
-lot of the same content. A sentence here, a phrase there.  You want to tailor
-it for every company because you want to keep it under two pages. I'm busy, and
-I have reasonable expectations about how exciting a resumé can be. Think _Cat in
-the Hat_ not _War and Peace._
+    Every job is different.  Get good at tailoring your experience and
+    accomplishments to individual companies. Do not tell me how good you are at
+    sword fighting if we're going to get in a laser gun fight on Endor. This seems
+    like a lot of work until you do it a few times and you find that you can remix a
+    lot of the same content. A sentence here, a phrase there.  You want to tailor
+    it for every company because you want to keep it under two pages. I'm busy, and
+    I have reasonable expectations about how exciting a resumé can be. Think _Cat in
+    the Hat_ not _War and Peace._
 
-4. Action! Excitement!
+4. **Action! Excitement!**
 
-A Jedi might not crave these things, but your resumé reviewer does. If you're a
-clever person who likes to have a good time don't be afraid to let that come
-across in your resumé.  I mean, don't try too hard, but don't wordsmith your
-introduction to the point that it sounds like it was written by a lawyer. If
-you're a detail oriented perfectionist (good for you!) then make sure your
-resumé _reflects_ this - a single conservative font with perfect kerning!
+    A Jedi might not crave these things, but your resumé reviewer does. If you're a
+    clever person who likes to have a good time don't be afraid to let that come
+    across in your resumé.  I mean, don't try too hard, but don't wordsmith your
+    introduction to the point that it sounds like it was written by a lawyer. If
+    you're a detail oriented perfectionist (good for you!) then make sure your
+    resumé _reflects_ this - a single conservative font with perfect kerning!
 
-It is okay for your resumé to be a statement about who you are, that's why we
-read it.
+    It is okay for your resumé to be a statement about who you are, that's why we
+    read it.
 
-5. Read. It. Aloud.
+5. **Read. It. Aloud.**
 
-Did you just say "yeah sure" before and then not do it?  I _mean it. Do it._
+    Did you just say "yeah sure" before and then not do it?  I _mean it. Do it._
 
 
 ### Here is your Handful of Salt

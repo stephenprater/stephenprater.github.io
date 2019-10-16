@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<h2 class="content__title"> {{ page.title }} <span class="content__date"> {{ page.date | date_to_long_string }}</h2>
+<h2 class="text__title">
+  {{ page.title }}
+  <br/>
+  <span class="text__date"> {{ page.date | date_to_long_string }} </span>
+</h2>
 
 <article>
   {{content}}
 </article>
 
-<hr class="post-divider"/>
+<hr class="text__post_divider"/>

@@ -250,4 +250,5 @@ you-will-never-be-good-at-this-job	_site/index.html	/^<h3 id="you-will-never-be-
 you-will-never-be-good-at-this-job	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="you-will-never-be-good-at-this-job">You will never be “good” at this job<\/h3>$/;"	I
 your-actual-skills-are-not-programming	_site/index.html	/^<h3 id="your-actual-skills-are-not-programming">Your actual skills are not programming<\/h3>$/;"	I
 your-actual-skills-are-not-programming	_site/process/mentoring/unsolicited-advice/2016/11/09/so-you-wanna-be-a-programmer.html	/^<h3 id="your-actual-skills-are-not-programming">Your actual skills are not programming<\/h3>$/;"	I
+{{ page.title }} {{ page.date | date_to_long_string }}	_layouts/post.html	/^<\/h2>$/;"	i
 {{ post.title }} {{ post.date | date_to_long_string }}	archive.html	/^        <\/h2>$/;"	i

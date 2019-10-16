@@ -5,12 +5,12 @@ date: 2019-10-15
 categories: mentoring unsolicited-advice writing
 ---
 
-I've been reading resumes lately in a couple of different capacities, and let me
+I have been reading resumés lately in a couple of different capacities, and let me
 tell you all something: They suck.
 
 ### The Conventional Wisdom Makes you Look Conventional
 
-The conventional wisdom of resume writing has you buzz-wording up your
+The conventional wisdom of resumé writing has you buzz-wording up your
 achievements and relating everything you've ever done in terms of _crushing
 those KPIs_ and _LOOK AT ALL THE MONEY_.
 
@@ -39,8 +39,8 @@ you, you have violated the One Commandment of Getting Job:
 
 > Convince your future teammates that you will make their life easier.
 
-Interestingly - I find that junior resumes tend toward the second type while the
-senior resumes are clustered around the first. I get that the plural of
+Interestingly - I find that junior resumés tend toward the second type while the
+senior resumés are clustered around the first. I get that the plural of
 anecdote is not data, so take that with as much salt as you need.
 
 Let's talk about these failure modes and what you ought to do to address them.
@@ -53,7 +53,7 @@ caption="Killed a Balrog, increasing Hobbit survival rate by 10,000%" %}
 So I kinda ran down the "conventional wisdom" back there, which was a little
 unfair, because there's some good stuff in there. I'm guessing you all know or
 have heard of these we all have Google and we've all looked up
-"why does my resume keep getting rejected?"
+"why does my resumé keep getting rejected?"
 
 So quick recap.
 
@@ -75,7 +75,7 @@ Let's start with How To List your Skills.  This is very, very straightforward.
 1. Copy them from the job ad
 
 **That's it.  That's the whole thing.** Copy each of the technologies listed in
-the job ad over to your resume, then delete them if you're not comfortable with
+the job ad over to your resumé, then delete them if you're not comfortable with
 them. If you know something adjacent then you can put that in *instead*. Like
 you can put down "Cloud Formation" instead of "Terraform" _if you don't have
 Terraform_.
@@ -103,14 +103,14 @@ of information it's not possible to know how important Processing is to the job,
 so we'll just leave that part out.
 
 I tend to put these in a little list right under my name, so that
-people can read my resume and see the intersection between what they're looking
+people can read my resumé and see the intersection between what they're looking
 for and what I have right away. If I need to read several pages of
 responsibilities, or things like this:
 
 > Created custom dashboard for Elatic Monitoring for RHEL 6.4 clusters written in
   Processing.js and Graylog
 
-I don't know what half of that means, I have to read your resume _really
+I don't know what half of that means, I have to read your resumé _really
 carefully_ to come up with the answer to my question "Does this person know
 Processing.JS?" - if the prime directive of job interviewing is showing how
 you will make your team's life easier, start by demonstrating this by making
@@ -165,13 +165,13 @@ going to make my life easier," and if you begin by making me read a long, boring
 document then you've just demonstrated the opposite. STAHP.
 
 All of that is easier said than done. Here are some actionable tips to
-make your resume better.
+make your resumé better.
 
 1. Read. It. Aloud.
 
 Seriously do this one. This is like the secret to good writing. Read
 it aloud, maybe even to an audience and see if it sounds engaging.  Perform your
-resume like a one act play and make sure that you're the hero.
+resumé like a one act play and make sure that you're the hero.
 
 2. Write the Resume You Wish You Had
 
@@ -192,19 +192,19 @@ sword fighting if we're going to get in a laser gun fight on Endor. This seems
 like a lot of work until you do it a few times and you find that you can remix a
 lot of the same content. A sentence here, a phrase there.  You want to tailor
 it for every company because you want to keep it under two pages. I'm busy, and
-I have reasonable expectations about how exciting a resume can be. Think _Cat in
+I have reasonable expectations about how exciting a resumé can be. Think _Cat in
 the Hat_ not _War and Peace._
 
 4. Action! Excitement!
 
-A Jedi might not crave these things, but your resume reviewer does. If you're a
+A Jedi might not crave these things, but your resumé reviewer does. If you're a
 clever person who likes to have a good time don't be afraid to let that come
 across in your resumé.  I mean, don't try too hard, but don't wordsmith your
 introduction to the point that it sounds like it was written by a lawyer. If
 you're a detail oriented perfectionist (good for you!) then make sure your
-resume _reflects_ this - a single conservative font with perfect kerning!
+resumé _reflects_ this - a single conservative font with perfect kerning!
 
-It is okay for your resume to be a statement about who you are, that's why we
+It is okay for your resumé to be a statement about who you are, that's why we
 read it.
 
 5. Read. It. Aloud.
@@ -222,7 +222,7 @@ screens, etc. If you're an asshole or you have no relevant skills, no amount of
 
 Second - I read the resumés of software developers, so if you're applying for a
 job as a Marketing Manager, understand you're outside my area of expertise. Some
-hiring procesess are designed to remove as much personality as possible from the
+hiring processes are designed to remove as much personality as possible from the
 process (looking at you, academia.) So, while software hiring may be broken in
 many ways, _so far_ we're doing an okayish job at not reducing "Do I want to
 spend eight hours a day discussing math and puzzles with this person?" to a list
@@ -248,14 +248,12 @@ at a place where people _want_ to spend half their waking hours engaging with
 you.
 
 And, when you think about it, would you want to spend that much time at a place
-that though you were just _too interesting?_
+that thought you were just _too interesting?_
 
 
+---
 
-
-
-
-<a name="liar">1.</a> But I'm not lying, that's really true!" - You know, I'm sure
+<a name="liar">1.</a> "But I'm not lying, that's really true!" - You know, I'm sure
 it is, but have you ever said this outside the context of a resumé or cover
 letter? If not, you need to find a more engaging way of saying this that not
 every person with a pulse is _also_ writing in their applications. If you have

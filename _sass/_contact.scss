@@ -15,7 +15,7 @@
   &__list_item {
     display: inline-block;
     width: 48%;
-    height: 200px;
+    height: 125px;
 
     @media (max-width: 600px) {
       width: 50%;
@@ -28,7 +28,7 @@
       display: block;
       width: 100%;
       height: 100%;
-      margin-top: 2em;
+      margin-top: 1em;
 
       color: $textGrey;
       font-family: 'archetype', 'serif';
